@@ -5,7 +5,7 @@ import {
   TaskInput,
   MinutesAmountInput
 } from './styles'
-import { CyclesContext } from '../..'
+import { CyclesContext } from '../../../../contexts/CyclesContext'
 
 export function NewCycleForm() {
   const { activeCycle } = useContext(CyclesContext)
